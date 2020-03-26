@@ -16,7 +16,7 @@ public class A {
 
     /**
      * 查询用户名A
-     * @param
+     * @param A
      * @return String
      *
      */
