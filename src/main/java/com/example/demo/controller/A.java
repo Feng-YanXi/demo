@@ -23,6 +23,6 @@ public class A {
     @ApiOperation(value = "接口的功能介绍",notes = "获取用户名",httpMethod = "GET")
     @GetMapping("/name")
     public String getName(){
-        return tbTestMapper.selectByUserId();
+        return tbTestMapper.selectByUserId()+"123456";
     }
 }
